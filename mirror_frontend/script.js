@@ -209,9 +209,9 @@ function activationWord () {
 }
 
 
-//setInterval(updateTime, 60000);
-//setInterval(getWeather, 3600000);
-//setInterval(updateCalendar, 3600000);
+setInterval(updateTime, 60000);
+setInterval(getWeather, 3600000);
+setInterval(updateCalendar, 3600000);
 
 activationWord();
 updateTime();
