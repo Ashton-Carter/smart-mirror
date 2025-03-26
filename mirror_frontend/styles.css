@@ -1,0 +1,143 @@
+/* General Page Styling */
+body {
+    background-color: black; /* Black background for reflectivity */
+    color: white; /* White text for visibility */
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+/* Main container to structure layout */
+.container {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Ensures central alignment */
+    justify-content: space-between;
+}
+
+/* Time - Centered at the Top */
+#datetime-container {
+    display: flex;
+    flex-direction: column; /* Stack date above time */
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px; /* Space from the top */
+}
+
+#date {
+    font-size: 1.5rem;
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 5px; /* Space between date and time */
+}
+
+#time {
+    font-size: 3rem;
+    text-align: center;
+    font-weight: bold;
+}
+
+/* Weather - Top Left Corner */
+#weather-container {
+    position: absolute;
+    top: 10px;  /* Moves weather to the top */
+    left: 20px; /* Aligns weather to the left */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 250px;
+}
+
+#weather {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+#weather-icon {
+    width: 100px;
+    height: 100px;
+    margin-right: 10px;
+}
+
+#weather-description {
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+/* Calendar - Right Side */
+.calendar {
+    position: absolute;
+    top: 50px;
+    right: 20px;
+    width: 250px;
+    text-align: left;
+}
+
+.calendar h2 {
+    font-size: 1.8rem;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.calendar ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.calendar li {
+    font-size: 1.3rem;
+    padding: 5px 0;
+}
+
+
+/* Chat Box Styling */
+/* #chat-container {
+    position: absolute;
+    bottom: 50px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+} */
+/* 
+#userInput {
+    padding: 10px;
+    width: 60%;
+    font-size: 16px;
+    margin-bottom: 10px;
+    border: 1px solid white;
+    border-radius: 5px;
+    background-color: black;
+    color: white;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: white;
+    color: black;
+    border: none;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: lightgray;
+}
+
+#response {
+    margin-top: 10px;
+    font-size: 18px;
+    color: lightgreen;
+} */
